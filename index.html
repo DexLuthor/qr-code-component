@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -20,7 +20,7 @@
 
         body {
             width: 100dvw;
-            height: 100dvh;
+            min-height: 100dvh;
             overflow: hidden;
             background-color: hsl(212, 45%, 89%);
             display: flex;
@@ -70,12 +70,14 @@
 
 <body>
 <div class="card">
-    <img src="images/image-qr-code.png" class="qr">
-    <div class="content">
+    <img src="images/image-qr-code.png" class="qr" alt="qr-code">
+    <main class="content">
         <h1 class="heading">Improve your front-end skills by building projects</h1>
-        <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next
-            level</p>
-    </div>
+        <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </main>
+    <footer>
+
+    </footer>
 </div>
 </body>
 
